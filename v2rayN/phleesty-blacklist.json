@@ -71,7 +71,8 @@
     "outboundTag":"proxy",
     "domain":[
       "geosite:ru-blocked",
-      "geosite:phleesty"
+      "geosite:phleesty",
+      "full:7tv.app"
     ],
     "enabled":true,
     "remarks":"\u0414\u043e\u043c\u0435\u043d\u044b"
