@@ -1,8 +1,8 @@
 {
-  "version": "Phleesty rules",
+  "version": "V1.0",
   "routingItems": [
     {
-      "remarks": "Blacklist by Phleesty v1.0",
+      "remarks": "Blacklist by Phleesty",
       "domainStrategy": "IPOnDemand",
       "url": "https://raw.githubusercontent.com/phleesty/v2ray-custom-routing-list/refs/heads/main/v2rayN/phleesty-blacklist.json"
     }
