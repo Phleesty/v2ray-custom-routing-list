@@ -9,6 +9,17 @@
   },
   {
     "outboundTag":"block",
+    "network":[
+      "udp"
+    ],
+    "port":[
+      "443"
+    ],
+    "enabled":false,
+    "remarks":"QUIC"
+  },
+  {
+    "outboundTag":"block",
     "domain":[
       "geosite:category-ads-all"
     ],
@@ -30,17 +41,6 @@
     ],
     "enabled":true,
     "remarks":"\u041f\u0440\u0438\u0432\u0430\u0442\u043d\u044b\u0435 \u0434\u043e\u043c\u0435\u043d\u044b"
-  },
-  {
-    "outboundTag":"proxy",
-    "ip":[
-      "1.0.0.1",
-      "1.1.1.1",
-      "8.8.8.8",
-      "8.8.4.4"
-    ],
-    "enabled":true,
-    "remarks":"DNS"
   },
   {
     "outboundTag":"proxy",
