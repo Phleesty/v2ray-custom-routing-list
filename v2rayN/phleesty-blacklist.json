@@ -61,7 +61,8 @@
     "domain":[
       "geosite:ru-blocked",
       "geosite:phleesty",
-      "full:7tv.app"
+      "full:7tv.app",
+      "full:frankerfacez.com"
     ],
     "enabled":true,
     "remarks":"\u0414\u043e\u043c\u0435\u043d\u044b"
