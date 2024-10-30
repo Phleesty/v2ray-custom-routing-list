@@ -41,7 +41,7 @@
   {
     "outboundTag":"proxy",
     "domain":[
-      "geosite:all-youtube"
+      "geosite:youtube"
     ],
     "enabled":true,
     "remarks":"YouTube"
