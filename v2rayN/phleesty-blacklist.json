@@ -33,14 +33,20 @@
   },
   {
     "outboundTag":"proxy",
+    "domain":[
+      "geosite:youtube"
+    ],
     "ip":[
       "geoip:all-youtube"
     ],
     "enabled":true,
-    "remarks":"YouTube \u0441 QUIC"
+    "remarks":"YouTube"
   },
   {
     "outboundTag":"proxy",
+    "domain":[
+      "geosite:discord"
+    ],
     "ip":[
       "geoip:all-discord"
     ],
@@ -54,18 +60,18 @@
       "geoip:phleesty"
     ],
     "enabled":true,
-    "remarks":"IP"
+    "remarks":"\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 IP"
   },
   {
     "outboundTag":"proxy",
     "domain":[
-      "geosite:ru-blocked",
+      "geosite:refilter",
       "geosite:phleesty",
       "full:7tv.app",
       "full:frankerfacez.com"
     ],
     "enabled":true,
-    "remarks":"\u0414\u043e\u043c\u0435\u043d\u044b"
+    "remarks":"\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043c\u0435\u043d\u044b"
   },
   {
     "port":"0-65535",
