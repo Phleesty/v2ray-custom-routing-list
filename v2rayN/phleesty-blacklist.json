@@ -26,7 +26,8 @@
   {
     "outboundTag":"direct",
     "domain":[
-      "geosite:private"
+      "geosite:private",
+      "domain:kick.com"
     ],
     "enabled":true,
     "remarks":"\u041f\u0440\u0438\u0432\u0430\u0442\u043d\u044b\u0435 \u0434\u043e\u043c\u0435\u043d\u044b"
