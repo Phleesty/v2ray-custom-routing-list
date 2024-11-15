@@ -1,0 +1,72 @@
+[
+  {
+    "OutboundTag": "direct",
+    "Domain": [
+      "geosite:private"
+    ],
+    "Enabled": true,
+    "Remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 \u0434\u043E\u043C\u0435\u043D\u044B"
+  },
+  {
+    "OutboundTag": "direct",
+    "Protocol": [
+      "bittorrent"
+    ],
+    "Enabled": true,
+    "Remarks": "\u0422\u043E\u0440\u0440\u0435\u043D\u0442 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "OutboundTag": "block",
+    "Domain": [
+      "geosite:category-ads-all"
+    ],
+    "Enabled": true,
+    "Remarks": "\u0411\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u043A\u0430 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+  },
+  {
+    "OutboundTag": "direct",
+    "Ip": [
+      "geoip:private"
+    ],
+    "Enabled": true,
+    "Remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 IP"
+  },
+  {
+    "OutboundTag": "proxy",
+    "Ip": [
+      "1.0.0.1",
+      "1.1.1.1",
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "Enabled": true,
+    "Remarks": "DNS \u0432 \u043F\u0440\u043E\u043A\u0441\u0438"
+  },
+  {
+    "OutboundTag": "proxy",
+    "Ip": [
+      "geoip:phleesty"
+    ],
+    "Enabled": true,
+    "Remarks": "\u0417\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435 IP"
+  },
+  {
+    "Port": "",
+    "OutboundTag": "proxy",
+    "Ip": [],
+    "Domain": [
+      "geosite:refilter",
+      "geosite:tiktok",
+      "geosite:phleesty"
+    ],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "\u0417\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435 \u0434\u043E\u043C\u0435\u043D\u044B"
+  },
+  {
+    "Port": "0-65535",
+    "OutboundTag": "direct",
+    "Enabled": true,
+    "Remarks": "\u041E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  }
+]
