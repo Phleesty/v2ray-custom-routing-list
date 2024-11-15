@@ -53,7 +53,8 @@
   {
     "outboundTag":"proxy",
     "domain":[
-      "geosite:discord"
+    "geosite:discord"
+    ]
     "enabled":true,
     "remarks":"Discord domains"
   },
