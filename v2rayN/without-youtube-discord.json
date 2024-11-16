@@ -56,8 +56,9 @@
     "Ip": [],
     "Domain": [
       "geosite:refilter",
+      "geosite:phleesty",
       "geosite:tiktok",
-      "geosite:phleesty"
+      "geosite:notion"
     ],
     "Process": [],
     "Enabled": true,
